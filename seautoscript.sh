@@ -1,8 +1,3 @@
-commands:
-nano install
-chmod 755 * && ./install
-
-script:
 #!/bin/bash
 read -r -p "This will install SoftEther to your server. Are you sure you want to continue? [y/N] " response
 case $response in
